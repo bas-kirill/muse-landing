@@ -1,0 +1,8 @@
+header {
+    display: flex;
+    border: 1px solid black;
+}
+
+#muse-group-logo {
+    margin: 30px auto;
+}
