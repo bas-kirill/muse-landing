@@ -1,0 +1,58 @@
+#hero-section {
+    padding: 50px 18%;
+    background-color: #EEF0F2;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero-section > h1 {
+    font-size: 26px;
+    line-height: 33.8px;
+}
+
+#academy-description-paragraph {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 24px 0;
+    color: #4B4B4B;
+
+}
+
+#invitation-paragraph {
+    font-size: 14px;
+    line-height: 21px;
+    color: #4B4B4B;
+}
+
+#hero-section-form> form {
+    display: flex;
+}
+
+#hero-section-form> form > input[type="text"] {
+    width: 324px;
+    height: 45px;
+    border-radius: 8px;
+    padding: 0 20px;
+    border: 1px solid #C0C0C0;
+    box-sizing: border-box; /* need for the same size as submit button */
+    font-size: 14px;
+    line-height: 21px;
+}
+
+#hero-section-form > form > button[type="submit"] {
+    width: 98px;
+    height: 45px;
+    padding: 0 24px;
+    gap: 8px;
+    border-radius: 8px;
+    background: #3366FF;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-sizing: border-box;
+}
