@@ -1,7 +1,7 @@
 import React from "react";
 import HelpCenter from "./HelpCenter";
-import "./Footer.css";
 import Socials from "./Socials";
+import "./styles/Footer.css";
 
 const Footer = () => {
     return (

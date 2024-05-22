@@ -3,7 +3,7 @@ import InstagramIcon from "./icons/InstagramIcon";
 import TelegramIcon from "./icons/TelegramIcon";
 import LinkedInIcon from "./icons/LinkedInIcon";
 import FacebookIcon from "./icons/FacebookIcon";
-import "./Socials.css";
+import "./styles/Socials.css";
 
 const Socials = () => {
     return (
