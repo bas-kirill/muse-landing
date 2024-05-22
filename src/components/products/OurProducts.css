@@ -12,79 +12,8 @@
     flex-wrap: wrap;
 }
 
-.product {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #D8D8D8;
-    border-radius: 8px;
-    flex-basis: calc(50% - 5px);
-    height: 340px;
-    box-sizing: border-box;
-}
-
-.product-description {
-    margin: 16px;
-}
-
-.product:nth-child(1) {
-    margin-right: 5px;
-    margin-bottom: 5px;
-}
-
-.product:nth-child(2) {
-    margin-left: 5px;
-    margin-bottom: 5px;
-}
-
-.product:nth-child(3) {
-    margin-top: 5px;
-    margin-right: 5px;
-}
-
-.product:nth-child(4) {
-    margin-top: 5px;
-    margin-left: 5px;
-}
-
-.rectangle {
-    flex-basis: 50%;
-    border-radius: 8px 8px 0 0;
-    box-sizing: border-box;
-}
-
-.red {
-    background-color: red;
-}
-
-.yellow {
-    background-color: yellow;
-}
-
-.blue {
-    background: blue;
-}
-
-.product-name-and-description-wrapper {
-    margin: 16px;
-}
-
-.product-name-and-description-wrapper > h2 {
-    font-weight: 600;
-}
-
-.product-name-and-description-wrapper > p {
-    color: #4B4B4B;
-    font-size: 16px;
-}
-
-.read-more-wrapper {
-    margin: 16px;
-}
-
-.read-more-wrapper > a {
-    font-family: Mulish, sans-serif;
-    text-decoration: none;
-    text-decoration-color: #3366FF;
-    display: flex;
-    align-items: center;
-}
+/*@media (max-width: 320px) {*/
+/*    #our-products-wrapper .product + .product {*/
+/*        margin-top: 16px;*/
+/*    }*/
+/*}*/
