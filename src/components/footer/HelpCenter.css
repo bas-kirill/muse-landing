@@ -1,0 +1,10 @@
+#help-center-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0;
+}
+
+#help-center-wrapper > div {
+    font-family: Inter, sans-serif;
+    color: #3366FF;
+}
