@@ -1,0 +1,64 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #D8D8D8;
+    border-radius: 8px;
+    flex-basis: calc(50% - 5px);
+    min-height: 340px;  /* used min-height, because we text can overflow and we need to keep same height */
+    box-sizing: border-box;
+    align-content: stretch;
+    max-width: 50%; /* need in case of content overflow */
+    overflow: auto;
+}
+
+.rectangle {
+    min-height: 159px;  /* Margin from h2 changes height, so we need to use min-height instead of height */
+    border-radius: 8px 8px 0 0;
+    box-sizing: border-box;
+}
+
+.product-info-wrapper {
+    flex-basis: 50%;
+}
+
+.product-name-and-description-wrapper {
+    margin: 16px;
+    box-sizing: border-box;
+}
+
+.product-title {
+    font-weight: 600;
+    margin: 0 0;
+    box-sizing: border-box;
+}
+
+.product-description {
+    color: #4B4B4B;
+    font-size: 16px;
+    margin: 10px 0 0 0;
+}
+
+.product-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.read-more-wrapper {
+    margin: auto 16px 16px 16px;
+}
+
+.read-more-wrapper > a {
+    font-family: Mulish, sans-serif;
+    text-decoration: none;
+    text-decoration-color: #3366FF;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 320px) {
+    .product {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}

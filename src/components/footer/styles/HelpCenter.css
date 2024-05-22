@@ -8,3 +8,9 @@
     font-family: Inter, sans-serif;
     color: #3366FF;
 }
+
+@media (max-width: 320px) {
+    #help-center-wrapper > div {
+        font-size: 11px;
+    }
+}
