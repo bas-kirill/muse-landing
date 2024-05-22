@@ -1,6 +1,7 @@
 # Muse Landing
 
-<img style="float: right" width="200" height="300" src="./images/muse-logo.png">
+[comment]: <> (<img style="float: right" ... /> does not work at Github) 
+<img align="right" width="200" height="300" src="./images/muse-logo.png">
 
 Ladies and gentlemen, this is my first frontend test assignment for a tech company,
 and I have only 50% confidence that I
