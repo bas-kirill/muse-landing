@@ -3,7 +3,7 @@
     flex-direction: column;
     border: 1px solid #D8D8D8;
     border-radius: 8px;
-    flex-basis: 50%;
+    flex-basis: calc(50% - 5px);
     min-height: 340px;  /* used min-height, because we text can overflow and we need to keep same height */
     box-sizing: border-box;
     align-content: stretch;

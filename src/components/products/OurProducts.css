@@ -10,6 +10,8 @@
 #products {
     display: flex;
     flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
 }
 
 @media (max-width: 320px) {
