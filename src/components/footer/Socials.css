@@ -1,0 +1,8 @@
+#socials-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#socials-wrapper > div {
+    line-height: 0; /* https://stackoverflow.com/questions/75751593/why-there-is-additional-4px-height-for-div-when-there-is-svg-inside-it#:~:text=1%20Answer&text=By%20default%2C%20SVG%20elements%20are,something%20slightly%20larger%20than%201%20. */
+}
