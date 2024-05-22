@@ -19,7 +19,6 @@ const MuseGroupLogo = () => {
                 </defs>
             </svg>
         </div>
-
     );
 };
 

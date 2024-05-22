@@ -8,20 +8,22 @@
 }
 
 #hero-section > h1 {
+    font-weight: 600;
     font-size: 26px;
     line-height: 33.8px;
 }
 
 #academy-description-paragraph {
+    padding: 24px 0;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    padding: 24px 0;
     color: #4B4B4B;
-
 }
 
 #invitation-paragraph {
+    font-weight: 400;
     font-size: 14px;
     line-height: 21px;
     color: #4B4B4B;
