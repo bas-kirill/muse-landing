@@ -1,0 +1,55 @@
+#hero-section-form-wrapper {
+    flex-basis: 100%;
+    width: 100%
+}
+
+#hero-section-form-wrapper > form {
+    display: flex;
+    justify-content: center;
+}
+
+#hero-section-form-wrapper > form > input[type="text"] {
+    width: 50%;
+    height: 45px;
+    border-radius: 8px;
+    padding: 0 20px;
+    margin-right: 5px;
+    border: 1px solid #C0C0C0;
+    box-sizing: border-box; /* need for the same size as submit button */
+    font-size: 14px;
+    line-height: 21px;
+}
+
+#hero-section-form-wrapper > form > button[type="submit"] {
+    width: 15%;
+    height: 45px;
+    padding: 0 24px;
+    margin-left: 5px;
+    gap: 8px;
+    border-radius: 8px;
+    background: #3366FF;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-sizing: border-box;
+    border-width: 0;
+}
+
+@media (max-width: 320px) {
+    #hero-section-form-wrapper > form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hero-section-form-wrapper > form > input[type="text"] {
+        width: 100%;
+        margin: 0 0 4px;
+    }
+
+    #hero-section-form-wrapper > form > button[type="submit"] {
+        width: 100%;
+        margin: 4px 0 0;
+    }
+}
