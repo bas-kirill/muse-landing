@@ -56,8 +56,14 @@
     font-size: 16px;
 }
 
+.product-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 .read-more-wrapper {
-    margin: 16px;
+    margin: auto 16px 16px 16px;
 }
 
 .read-more-wrapper > a {
