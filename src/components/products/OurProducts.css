@@ -12,8 +12,12 @@
     flex-wrap: wrap;
 }
 
-/*@media (max-width: 320px) {*/
-/*    #our-products-wrapper .product + .product {*/
-/*        margin-top: 16px;*/
-/*    }*/
-/*}*/
+@media (max-width: 320px) {
+    #products {
+        flex-direction: column;
+    }
+
+    #products > .product + .product {
+        margin-top: 16px;
+    }
+}
