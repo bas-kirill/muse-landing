@@ -1,4 +1,4 @@
-<img align="right" width="200" height="300" src="./images/img_3.png">
+<img align="right" width="200" height="300" src="./images/muse-logo.png">
 
 # Muse Landing
 
@@ -14,4 +14,11 @@ This is landing including the following features:
 * Desktop and mobile versions
 * Client-side form validation
 
-
+[comment]: <> (Сверстать адаптивно любым предпочитаемым способом)
+[comment]: <> (Сделать валидацию email-поля по клику кнопки формы и по нажатию кнопки Enter)
+[comment]: <> (Показывать alert "Welcome to the team!", если валидация прошла успешно)
+[comment]: <> (Показывать alert "Email is invalid", если валидация прошла неуспешно)
+[comment]: <> (Залить код в публичный Github репозиторий)
+[comment]: <> (Задеплоить результат на Github Pages)
+[comment]: <> (Прислать ссылку на репозиторий и на сайт)
+[comment]: <> (На выполнение задания дается 7 календарных дней. Удачи!)
