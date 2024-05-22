@@ -8,7 +8,7 @@ import "./styles/Socials.css";
 const Socials = () => {
     return (
         <div id="socials-wrapper">
-            <div style={{marginRight: "16px"}}>
+            <div style={{marginRight: "30px"}}>
                 <InstagramIcon/>
             </div>
             <div style={{marginLeft: "30px", marginRight: "30px"}}>
