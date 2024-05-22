@@ -5,7 +5,9 @@ import "./Header.css";
 const Header = () => {
     return (
         <header>
-            <MuseGroupLogo />
+            <div id="muse-group-logo">
+                <MuseGroupLogo/>
+            </div>
         </header>
     );
 }

@@ -1,8 +1,8 @@
 import * as E from "fp-ts/Either";
-import ValueObject from "../../common/ValueObject";
+import ValueObject from "../common/ValueObject";
 
 class Email implements ValueObject {
-    static emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    static readonly emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     value: string;
 
     private constructor(email: string) {
@@ -20,7 +20,7 @@ class Email implements ValueObject {
         return this.value;
     }
 
-    static EmailError = class extends Error {
+    static readonly EmailError = class extends Error {
         constructor(message: string) {
             super(message);
             this.name = "EmailError";

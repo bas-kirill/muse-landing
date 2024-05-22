@@ -1,6 +1,7 @@
 import React, {FormEvent, useState} from "react";
-import CaretRight from "./CaretRight";
-import Email from "./Email";
+import CaretRight from "../CaretRight";
+import "./HeroSectionForm.css";
+import Email from "../../../domain/Email";
 
 const HeroSectionForm = () => {
     const [emailRaw, setEmailRaw] = useState<string>("");

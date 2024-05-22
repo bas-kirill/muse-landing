@@ -2,7 +2,7 @@ import React from "react";
 
 const MuseGroupLogo = () => {
     return (
-        <div id="muse-group-logo">
+
             <svg width="144" height="40" viewBox="0 0 144 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clipPath="url(#clip0_52_1059)">
                     <path fillRule="evenodd" clipRule="evenodd"
@@ -18,7 +18,6 @@ const MuseGroupLogo = () => {
                     </clipPath>
                 </defs>
             </svg>
-        </div>
     );
 };
 
