@@ -9,7 +9,7 @@ const Socials = () => {
     return (
         <div id="socials-wrapper">
             <div style={{marginRight: "30px"}}>
-                <InstagramIcon/>
+                <a href="https://www.instagram.com/animaapp"><InstagramIcon/></a>
             </div>
             <div style={{marginLeft: "30px", marginRight: "30px"}}>
                 <TelegramIcon/>
@@ -18,7 +18,7 @@ const Socials = () => {
                 <LinkedInIcon/>
             </div>
             <div style={{marginLeft: "30px"}}>
-                <FacebookIcon/>
+                <a href="https://discord.gg/eQxkYTNxSp"><FacebookIcon/></a>
             </div>
 
         </div>
